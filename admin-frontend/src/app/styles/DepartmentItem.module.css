@@ -1,0 +1,33 @@
+.departmentItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f4f6;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .departmentName {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2563eb; /* Xanh đậm */
+  }
+  
+  .button {
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .editButton {
+    background-color: #fbbf24; /* Vàng */
+  }
+  
+  .deleteButton {
+    background-color: #ef4444; /* Đỏ */
+  }
+  

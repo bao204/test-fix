@@ -1,0 +1,61 @@
+/* Container để giữ sidebar cố định */
+.sidebar-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar chính */
+  .sidebar {
+    background: #343a40;
+    color: white;
+    height: 100vh;
+    min-width: 60px;
+    transition: width 0.3s ease-in-out;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+  
+  /* Khi mở rộng */
+  .sidebar-open {
+    width: 220px;
+  }
+  
+  /* Khi đóng */
+  .sidebar-closed {
+    width: 60px;
+  }
+  
+  /* Nút toggle */
+  .toggle-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  /* Menu */
+  .menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .menu-item:hover {
+    background: #495057;
+    border-radius: 6px;
+  }
+  
